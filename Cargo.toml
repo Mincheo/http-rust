@@ -1,8 +1,9 @@
-[package]
+﻿[package]
 name = "http-rust"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
 axum = "0.6"
+serde = {version="1.0.213", features = ["derive"] }
 tokio = { version = "1", features = ["full"] }
